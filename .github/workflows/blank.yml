@@ -14,4 +14,4 @@ jobs:
 
       - name: 执行脚本
         run: |
-          python3 main.py
+          python3 main2.py
