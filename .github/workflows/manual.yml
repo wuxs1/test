@@ -30,5 +30,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+    - name: 检出代码
+      uses: actions/checkout@v2
     - name: run task
-      run: python3 main2.py
+      run: ls -alh && python3 main2.py
