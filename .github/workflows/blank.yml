@@ -2,7 +2,7 @@ name: 循环执行脚本
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # 每隔6小时执行一次
+    - cron: '*/20 * * * *'  # 每隔6小时执行一次
 
 jobs:
   run_script:
